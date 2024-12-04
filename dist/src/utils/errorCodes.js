@@ -1,0 +1,31 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ErrorCodes = void 0;
+var ErrorCodes;
+(function (ErrorCodes) {
+    ErrorCodes["INVALID_CREDENTIAL"] = "invalid-credential";
+    ErrorCodes["INVALID_EMAIL"] = "invalid-email";
+    ErrorCodes["USER_ID_NEEDED"] = "user-id-needed-but-not-provided";
+    ErrorCodes["USER_NOT_FOUND"] = "user-not-found";
+    ErrorCodes["USER_UPDATE_ERROR"] = "cannot-update-user";
+    ErrorCodes["USER_DELETE_ERROR"] = "cannot-delete-user";
+    ErrorCodes["ANY_USER_NOT_FOUND"] = "any-user-not-found";
+    ErrorCodes["EMAIL_ALREADY_IN_USE"] = "email-already-in-use";
+    ErrorCodes["USER_ALREADY_EXISTS"] = "user-already-exists";
+    ErrorCodes["CREATE_ERROR"] = "failed-to-create-user";
+    ErrorCodes["UPDATE_ERROR"] = "failed-to-update-user";
+    ErrorCodes["DELETE_ERROR"] = "failed-to-delete-user";
+    ErrorCodes["LOGIN_ERROR"] = "failed-to-login-user";
+    ErrorCodes["LOGOUT_ERROR"] = "failed-to-logout-user";
+    ErrorCodes["SERVER_ERROR"] = "error-to-sync-to-the-server";
+    ErrorCodes["CARD_CREATE_ERROR"] = "cannot-create-that-card";
+    ErrorCodes["CARD_UPDATE_ERROR"] = "cannot-update-that-card";
+    ErrorCodes["CARD_NOT_FOUND"] = "card-not-found";
+    ErrorCodes["CARD_DELETE_ERROR"] = "cannot-delete-that-card";
+    ErrorCodes["COLLECTION_CREATE_ERROR"] = "cannot-create-that-collection";
+    ErrorCodes["COLLECTION_UPDATE_ERROR"] = "cannot-update-that-collection";
+    ErrorCodes["COLLECTION_NOT_FOUND"] = "collection-not-found";
+    ErrorCodes["COLLECTION_DELETE_ERROR"] = "cannot-delete-that-collection";
+    ErrorCodes["AUTH_FAILURE"] = "user-unauthorized-for-that-action";
+})(ErrorCodes || (exports.ErrorCodes = ErrorCodes = {}));
+//# sourceMappingURL=errorCodes.js.map
